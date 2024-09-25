@@ -1,0 +1,70 @@
+body{
+    color:black;
+    font-family : sans-serif;
+    margin : 1rem
+}
+
+.bloc1{
+    background-color:#399473;
+    color:white
+}
+
+.bloc2{
+    background-color:#8A9233;
+    color:white;
+}
+
+.bloc3{
+    background-color:#3E5DC4;
+    color:white;
+}
+
+article{
+    display: flex;
+    padding : 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius : 8px;
+}
+
+
+.une>article{
+    margin-block : 0.2rem;
+}
+
+
+.deux{display : flex}
+
+.deux>article{
+  flex : auto;
+  margin : 0.5rem;
+}
+
+
+.trois{display : flex}
+
+.trois>.bloc1{
+  flex : 0 0 50%
+}
+
+.trois>article{
+  flex : 1 1 auto;
+  margin : 0 0.5rem
+}
+
+.quatre{display:flex}
+
+
+.cinq{display:flex; flex-direction : column}
+
+.cinq>.bloc2{
+  flex :127px
+}
+.cinq>article{
+  flex : 1 1 auto;
+  margin : 0.5rem 0
+}
+
+
+.six{display : flex}
+
